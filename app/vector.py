@@ -24,7 +24,7 @@ def index():
         info = pc.describe_index(name)
     except Exception as exc:
         # Only create on an actual 404; never hide auth/network failures.
-        if getattr(exc, 'status', None) != 404:
+        if getattr(exc, 'status_code', None) != 404:
             raise
         log.info('Creating Pinecone index %s (dimension=%d, metric=cosine)', name, s.embed_dim)
         try:
