@@ -14,6 +14,8 @@ pip install -r requirements.txt
 
 </div>
 
+<img width="1536" height="1024" alt="Atlas AI Architecture Diagram" src="https://github.com/user-attachments/assets/9bd74f42-8a99-4cb4-99b6-7118a98a5068" />
+
 ## Implementation Steps:
 ---
 
